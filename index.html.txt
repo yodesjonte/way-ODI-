@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wayodi - Credit Officer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Wayodi</h1>
+            <p>Credit Officer - Vehicle Financing and Insurance</p>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm John Wayodi, a dedicated Credit Officer specializing in vehicle financing and insurance. With years of experience in the financial sector, I am committed to providing exceptional service to help my clients achieve their goals.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>I offer a range of services including:</p>
+            <ul>
+                <li>Vehicle financing consultation</li>
+                <li>Insurance advice and planning</li>
+                <li>Loan application assistance</li>
+                <li>Financial risk assessment</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:john.wayodi@example.com">john.wayodi@example.com</a>.</p>
+        </section>
+        <footer>
+            <p>&copy; 2024 John Wayodi. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
